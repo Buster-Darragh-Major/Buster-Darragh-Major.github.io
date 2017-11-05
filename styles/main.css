@@ -1,12 +1,51 @@
-#links {
-	background: orange;
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	margin: 0;
+}
+
+.banner {
+	background: grey;
+}
+
+#header-title {
+	color: white;
+	text-align: center;
+	font-weight: normal;
+	font-family: "Century Gothic";
+	padding: 10px 20px;
+}
+
+#footer {
+	margin: 0;
+	bottom: 0;
+	padding: 10px 20px;
+	position: fixed;
+	width: 100%;
+
+}
+
+#footer-links {
+	float: left;
 	list-style-type: none;
 }
 
-#links li {
+#footer-links li {
 	display: inline;
 }
 
-#links li i {
+#footer-links li i {
+	margin: 0px 10px;
 	color: white;
+}
+
+#footer-copyright {
+	color: white;
+	font-family: "Century Gothic";
+	float: right;
+	padding: 0px 40px;
 }
