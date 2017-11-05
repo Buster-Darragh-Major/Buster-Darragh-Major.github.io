@@ -16,6 +16,10 @@ body {
 
 .parallax {
 	background: url("https://f4.bcbits.com/img/a2982924713_10.jpg") repeat fixed 200%;
+	background-repeat: no-repeat;
+	background-size:100%;
+	background-attachment: fixed;
+	background-position: center;
 }
 
 /*---End Parallax---*/
