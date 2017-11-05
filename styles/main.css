@@ -24,6 +24,18 @@
 	font-family: "Century Gothic";
 	padding: 20%;
 }
+
+#photo-credit {
+	color: grey;
+	text-align: right;
+	text-decoration: none;
+	font-family: "Century Gothic";
+	font-size: 60%;
+}
+
+#photo-credit:hover {
+	color: orange;
+}
 /*---Header Finish*---/
 
 
@@ -37,13 +49,34 @@
 	text-align: center;
 	color: grey;
 	font-family: "Century Gothic";
-	padding: 10% 0px 0px 10px;
+	margin: 10% 0px 0px 10px;
 }
 
 .main-body-paragraph {
 	text-align: center;
 	font-family: "Century Gothic";
-	padding: 0px 25%;
+	margin: 0px 25%;
+}
+
+.main-body-list {
+	margin: 0px 25%;
+	float: center;
+}
+
+.main-body-list-item {
+	list-style-type: none;
+	font-family: "Century Gothic";
+	text-align: center;
+}
+
+.main-body-list-item a {
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+.main-body-list-item a:hover {
+	color: orange;
 }
 /*---Body Finish---*/
 
@@ -60,7 +93,6 @@
 }
 
 #footer-links {
-	float: left;
 	list-style-type: none;
 }
 
@@ -73,10 +105,7 @@
 	color: white;
 }
 
-#footer-copyright {
-	color: white;
-	font-family: "Century Gothic";
-	float: right;
-	padding: 0px 40px;
+#footer-links li i:hover {
+	color: orange;
 }
 /*---Footer Finish---*/
