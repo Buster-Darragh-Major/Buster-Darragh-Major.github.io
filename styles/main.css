@@ -12,12 +12,20 @@ body {
 	background: grey;
 }
 
+/*---Start Parallax---*/
+
+.parallax {
+	background: url("https://f4.bcbits.com/img/a2982924713_10.jpg") repeat fixed 200%;
+}
+
+/*---End Parallax---*/
+
 #header-title {
 	color: white;
 	text-align: center;
 	font-weight: normal;
 	font-family: "Century Gothic";
-	padding: 10px 20px;
+	padding: 20%;
 }
 
 #footer {
