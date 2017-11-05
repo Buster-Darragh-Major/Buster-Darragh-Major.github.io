@@ -4,16 +4,11 @@
 	border: 0;
 }
 
-body {
-	margin: 0;
-}
-
 .banner {
 	background: grey;
 }
 
-/*---Start Parallax---*/
-
+/*---Header Start---*/
 .parallax {
 	background: url("/res/Header.jpg") repeat fixed 200%;
 	background-repeat: no-repeat;
@@ -22,8 +17,6 @@ body {
 	background-position: top;
 }
 
-/*---End Parallax---*/
-
 #header-title {
 	color: white;
 	text-align: center;
@@ -31,7 +24,32 @@ body {
 	font-family: "Century Gothic";
 	padding: 20%;
 }
+/*---Header Finish*---/
 
+
+
+/*---Body Start---*/
+.main-body {
+	padding: 0px 0px 150px 0px;
+}
+
+.main-body-title {
+	text-align: center;
+	color: grey;
+	font-family: "Century Gothic";
+	padding: 10% 0px 0px 10px;
+}
+
+.main-body-paragraph {
+	text-align: center;
+	font-family: "Century Gothic";
+	padding: 0px 25%;
+}
+/*---Body Finish---*/
+
+
+
+/*---Footer Start---*/
 #footer {
 	margin: 0;
 	bottom: 0;
@@ -61,3 +79,4 @@ body {
 	float: right;
 	padding: 0px 40px;
 }
+/*---Footer Finish---*/
