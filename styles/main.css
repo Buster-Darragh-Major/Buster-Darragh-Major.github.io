@@ -39,6 +39,38 @@
 /*---Header Finish*---/
 
 
+/*---Menu Start---*/
+.menu {
+	background: grey;
+}
+
+.menu-list {
+	display: table;
+	width: 100%;
+	position: center;
+	list-style-type: none;
+}
+
+.menu-list a {
+	width: 25%;
+	display: table-cell;
+	text-decoration: none;
+}
+
+.menu-list a li {
+	margin: 5px 0px;
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	font-family: "Century Gothic";
+}
+
+.menu-list a li:hover {
+	background: #555;
+	color: orange;
+}
+/*---Meu Finish---*/
+
 
 /*---Body Start---*/
 .main-body {
@@ -49,7 +81,7 @@
 	text-align: center;
 	color: grey;
 	font-family: "Century Gothic";
-	margin: 10% 0px 0px 10px;
+	margin: 7% 0px 0px 10px;
 }
 
 .main-body-paragraph {
@@ -89,7 +121,6 @@
 	padding: 5px 20px;
 	position: fixed;
 	width: 100%;
-
 }
 
 #footer-links {
@@ -113,12 +144,12 @@
 
 
 /*---Music Start---*/
-.parallax-music {
+.blur-img {
 	background: url("/res/Music-Header.jpg") repeat fixed 200%;
 	background-repeat: no-repeat;
-	background-size:100%;
+	background-size: cover;
 	background-attachment: fixed;
-	background-position: top;
+	background-position: center;
 }
 
 #header-title-music {
