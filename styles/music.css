@@ -39,21 +39,30 @@ position: relative;
 
     opacity: 0;
 }
-
-.music-main-body {
-	text-align: center;
-}
-
-.music-main-body i {
-	color: orange;
-	text-shadow: 4px 4px 6px #000000;
-	font-size: 100px;
-}
 /*---Blur Finish---*/
 
 
 /*---Body Start---*/
+.down-arrow {
+  text-align: center;
+}
 
+.down-arrow i {
+  color: orange;
+  text-shadow: 4px 4px 6px #000000;
+  font-size: 100px;
+}
+
+.body-column {
+  margin: 60px 20%;
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+}
+
+.body-column p, h1 {
+  font-family: "Century Gothic";
+}
 /*---Body Finish---*/
 
 
