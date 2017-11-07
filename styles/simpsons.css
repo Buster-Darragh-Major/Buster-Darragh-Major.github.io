@@ -8,6 +8,39 @@
   background: grey;
 }
 
+/*---Menu Start---*/
+.menu {
+	float: right;
+	background: grey;
+	width: 100%;
+}
+
+.menu-list {
+	display: table;
+	width: 100%;
+	position: center;
+	list-style-type: none;
+}
+
+.menu-list a {
+	width: 25%;
+	display: table-cell;
+	text-decoration: none;
+}
+
+.menu-list a li {
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	font-family: "Century Gothic";
+}
+
+.menu-list a li:hover {
+	background: #555;
+	color: orange;
+}
+/*---Meu Finish---*/
+
 /*---Blur Start---*/
 .blur-img {
   position: relative;
