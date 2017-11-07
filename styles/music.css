@@ -19,7 +19,7 @@
 }
 
 .underlay {
-	background: url("../res/Music-Header.jpg");
+	background: url("/../res/Music-Header.jpg");
 	position: fixed;
     width: 100%;
     height: 100vh;
@@ -29,7 +29,7 @@
 }
 
 .blur {
-	background: url("../res/Music-Header-Blur.jpg");
+	background: url("/../res/Music-Header-Blur.jpg");
 	position: fixed;
     width: 100%;
     height: 100vh;
