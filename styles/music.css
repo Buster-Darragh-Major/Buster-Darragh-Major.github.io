@@ -8,6 +8,39 @@
   background: grey;
 }
 
+/*---Menu Start---*/
+.menu {
+  float: right;
+  background: grey;
+  width: 100%;
+}
+
+.menu-list {
+  display: table;
+  width: 100%;
+  position: center;
+  list-style-type: none;
+}
+
+.menu-list a {
+  width: 25%;
+  display: table-cell;
+  text-decoration: none;
+}
+
+.menu-list a li {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  font-family: "Century Gothic";
+}
+
+.menu-list a li:hover {
+  background: #555;
+  color: orange;
+}
+/*---Meu Finish---*/
+
 /*---Blur Start---*/
 .blur-img {
   position: relative;
@@ -68,7 +101,7 @@
   text-align: center;
 }
 
-.body-column p, h1, li {
+.body-column p, h1, li, a {
   font-family: "Century Gothic";
 }
 
@@ -84,6 +117,13 @@
   margin-right: auto;
   margin-left:auto;
   box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.return-to-top, .return-to-top a {
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
 }
 /*---Body Finish---*/
 
