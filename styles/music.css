@@ -58,7 +58,7 @@
 }
 
 .body-column {
-  margin: 60px 20%;
+  margin: 60px 22.5%;
   padding: 40px 60px;
   background: white;
   border-radius: 15px;
@@ -78,8 +78,8 @@
 
 .body-image {
   margin: 40px;
-  height: 200px;
-  width: 200px;
+  height:300px;
+  width: 300px;
   display: block;
   margin-right: auto;
   margin-left:auto;
