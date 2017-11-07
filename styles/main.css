@@ -77,27 +77,26 @@
 }
 
 .main-body-title {
-	text-align: center;
+	text-align: left;
 	color: grey;
 	font-family: "Century Gothic";
-	margin: 7% 0px 0px 10px;
+	margin: 7% 0px 0px 27%;
 }
 
 .main-body-paragraph {
-	text-align: center;
+	text-align: left;
 	font-family: "Century Gothic";
 	margin: 0px 25%;
 }
 
 .main-body-list {
-	margin: 0px 25%;
-	float: center;
+	margin: 0px 27.5%;
 }
 
 .main-body-list-item {
-	list-style-type: none;
+	list-style-type: square;
 	font-family: "Century Gothic";
-	text-align: center;
+	text-align: left;
 }
 
 .main-body-list-item a {
