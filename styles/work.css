@@ -37,7 +37,32 @@
 	background: #555;
 	color: orange;
 }
-/*---Meu Finish---*/
+/*---Menu Finish---*/
+
+/*---Bio Col---*/
+.bio-col {
+	background: #222;
+	margin: 40px 30px 60px 40px;
+	border-radius: 15px;
+	width: 30vw;
+	padding: 70px;
+	text-align: center;
+}
+
+.bio-col-pic {
+	height: auto;
+	width: 250px;
+	margin: 30px 0 20px 0;
+	border-radius: 50%;
+	border: 1px solid orange;
+}
+
+.bio-col-para {
+	font-family: "Century Gothic";
+	color: white;
+	text-align: left;
+}
+/*---Bio Finish---*/
 
 /*---Footer Start---*/
 #footer {
