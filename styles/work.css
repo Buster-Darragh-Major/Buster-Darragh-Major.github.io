@@ -41,8 +41,9 @@
 
 /*---Bio Col---*/
 .bio-col {
+	float: left;
 	background: #222;
-	margin: 40px 30px 60px 40px;
+	margin: 40px 100px 60px 40px;
 	border-radius: 15px;
 	width: 30vw;
 	padding: 70px;
@@ -61,6 +62,32 @@
 	font-family: "Century Gothic";
 	color: white;
 	text-align: left;
+}
+
+.body-header {
+	margin: 50px;
+	margin-right: 30px;
+	font-size: 75px;
+	font-weight: normal;
+	font-family: "Century Gothic";
+}
+
+.body-para, li {
+	margin: 0 100px 0 0;
+	text-align: left;
+	font-size: 20px;
+	font-family: "Century Gothic";
+}
+
+.project-table tr {
+	margin: 20px 50px;
+	width: 45vw;
+}
+
+.project-table tr th img {
+	width: 80%;
+	margin: 20px 0;
+	height: auto;
 }
 /*---Bio Finish---*/
 
