@@ -72,11 +72,42 @@
 	font-family: "Century Gothic";
 }
 
+.body-sub-header {
+	margin: 50px;
+	margin-right: 30px;
+	font-size: 35px;
+	font-weight: normal;
+	font-family: "Century Gothic";
+	text-align: center;
+}
+
 .body-para, li {
-	margin: 0 100px 0 0;
+	margin: 0 100px 0 70px;
 	text-align: left;
 	font-size: 20px;
 	font-family: "Century Gothic";
+}
+
+.contact-table {
+	width: 40vw;
+	table-layout: fixed;
+}
+
+.contact-table .ct-1 {
+	width: 150px;
+}
+
+.contact-table tr th{
+	font-weight: normal;
+}
+
+.project-box {
+	margin: 0 10%;
+	border: 1px solid orange;
+}
+
+.project-table {
+	margin: auto;
 }
 
 .project-table tr {
@@ -88,6 +119,8 @@
 	width: 80%;
 	margin: 20px 0;
 	height: auto;
+	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 /*---Bio Finish---*/
 
