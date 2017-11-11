@@ -102,6 +102,19 @@
 	font-weight: normal;
 }
 
+.work-history-img {
+	float: right;
+	margin: 20px;
+}
+
+#park-hyatt {
+	width: 500px;
+}
+
+#meg {
+	height: 400px;
+}
+
 .project-box {
 	margin: 0 10%;
 	border: 1px solid orange;
