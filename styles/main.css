@@ -12,7 +12,7 @@
 .parallax {
 	background: url("/res/Header.jpg") repeat fixed 200%;
 	background-repeat: no-repeat;
-	background-size:100%;
+	background-size: cover;
 	background-attachment: fixed;
 	background-position: top;
 }
