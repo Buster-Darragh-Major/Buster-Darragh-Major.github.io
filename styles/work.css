@@ -31,7 +31,7 @@
 	font-size: 50px;
 	text-align: center;
 	color: white;
-	font-family: "Century Gothic";
+	font-family: "Arial";
 }
 
 .menu-list a li:hover {
@@ -60,7 +60,7 @@
 }
 
 .bio-col-para {
-	font-family: "Century Gothic";
+	font-family: "Arial";
 	color: white;
 	text-align: left;
 }
@@ -70,7 +70,7 @@
 	margin-right: 30px;
 	font-size: 75px;
 	font-weight: normal;
-	font-family: "Century Gothic";
+	font-family: "Arial";
 }
 
 .body-sub-header {
@@ -78,7 +78,7 @@
 	margin-right: 30px;
 	font-size: 35px;
 	font-weight: normal;
-	font-family: "Century Gothic";
+	font-family: "Arial";
 	text-align: center;
 }
 
@@ -86,7 +86,7 @@
 	margin: 0 100px 0 70px;
 	text-align: left;
 	font-size: 20px;
-	font-family: "Century Gothic";
+	font-family: "Arial";
 }
 
 .contact-table {

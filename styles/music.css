@@ -32,7 +32,7 @@
   font-size: 50px;
   text-align: center;
   color: white;
-  font-family: "Century Gothic";
+  font-family: "Arial";
 }
 
 .menu-list a li:hover {
@@ -111,7 +111,7 @@
 }
 
 .body-column p, h1, h3 li, a {
-  font-family: "Century Gothic";
+  font-family: "Arial";
 }
 
 .body-column li {
