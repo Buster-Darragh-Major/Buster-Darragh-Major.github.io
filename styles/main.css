@@ -17,24 +17,18 @@
 	background-position: top;
 }
 
-#header-title {
-	color: white;
+#header-title, #header-subtitle {
+	color: orange;
 	text-align: center;
 	font-weight: normal;
+	font-size: 100px;
 	font-family: "Arial";
-	padding: 20%;
+	padding: 20% 20% 0 20%;
 }
 
-#photo-credit {
-	color: grey;
-	text-align: right;
-	text-decoration: none;
-	font-family: "Century Gothic";
-	font-size: 60%;
-}
-
-#photo-credit:hover {
-	color: orange;
+#header-subtitle {
+	font-size: 20px !important;
+	padding: 0 0 15% 0
 }
 /*---Header Finish*---/
 
