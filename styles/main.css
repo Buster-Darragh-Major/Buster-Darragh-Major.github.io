@@ -21,7 +21,7 @@
 	color: white;
 	text-align: center;
 	font-weight: normal;
-	font-family: "Century Gothic";
+	font-family: "Arial";
 	padding: 20%;
 }
 
@@ -61,7 +61,7 @@
 	font-size: 50px;
 	text-align: center;
 	color: white;
-	font-family: "Century Gothic";
+	font-family: "Arial";
 }
 
 .menu-list a li:hover {
@@ -78,13 +78,13 @@
 .main-body-title {
 	text-align: left;
 	color: grey;
-	font-family: "Century Gothic";
+	font-family: "Arial";
 	margin: 7% 0px 0px 27%;
 }
 
 .main-body-paragraph {
 	text-align: left;
-	font-family: "Century Gothic";
+	font-family: "Arial";
 	margin: 0px 25%;
 }
 
@@ -94,7 +94,7 @@
 
 .main-body-list-item {
 	list-style-type: square;
-	font-family: "Century Gothic";
+	font-family: "Arial";
 	text-align: left;
 }
 
