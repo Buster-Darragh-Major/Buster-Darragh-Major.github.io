@@ -103,6 +103,10 @@ body {
 	font-weight: normal;
 }
 
+.portal h1 {
+	font-size: 25px;
+}
+
 .portal p, i {
 	color: black;
 }
@@ -115,6 +119,11 @@ body {
 	float: right;
 	font-size: 150%;
 	margin-top: 10px;
+}
+
+#portal-description {
+	color: white;
+	margin: 60px 0;
 }
 /*---Body Finish---*/
 
