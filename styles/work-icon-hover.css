@@ -1,0 +1,55 @@
+.hoverable-cs:hover {
+	color: #9B4F96;
+}
+
+.hoverable-java:hover {
+	color: #EA2D2E;
+}
+
+.hoverable-js:hover {
+	color: #F0DB4F;
+}
+
+.hoverable-html:hover {
+	color: #E44D26;
+}
+
+.hoverable-css:hover {
+	color: #1572B6;
+}
+
+.hoverable-c:hover {
+	color: #03599C;
+}
+
+.hoverable-bash:hover {
+	color: #111111;
+}
+
+.hoverable-slack:hover {
+	color: #111111;
+}
+
+.hoverable-sql:hover {
+	color: #00618A;
+}
+
+.hoverable-win:hover {
+	color: #00ADEF;
+}
+
+.hoverable-net:hover {
+	color: #1384C8;
+}
+
+.hoverable-linux:hover {
+	color: #DD4814;
+}
+
+.hoverable-vs:hover {
+	color: purple;
+}
+
+.hoverable-intelli:hover {
+	color: #3269c1;
+}

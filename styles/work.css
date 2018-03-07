@@ -43,9 +43,59 @@
 /*---Bio Col---*/
 
 .column {
-	width: 60%;
+	width: 65%;
 	margin: 0 auto;
-	padding: 10px 10px;
+	padding: 60px 0;
+}
+
+.header {
+	font-family: "Arial";
+	font-size: 60px;
+	text-align: center;
+}
+
+.about-me-content {
+	margin: 30px 0;
+}
+
+.about-me-text {
+	width: 60%;
+	float: left;
+	margin: 0 2%;
+}
+
+.about-me-toolbox {
+	width: 30%;
+	float: right;
+	padding: 2%;
+	margin-right: 2%;
+	border-radius: 15px
+}
+
+.about-me-toolbox h2 {
+	font-family: "Arial";
+	text-align: center;
+}
+
+.about-me-toolbox table {
+	width: 80%;
+	margin: 0 10%;
+	font-family: "Arial";
+	list-style-type: square;
+}
+
+.about-me-toolbox table tr th {
+	text-align: left;
+	padding: 0 5px;
+	font-weight: normal;
+}
+
+.lang-icon {
+	font-size: 200%
+}
+
+.work-history {
+	clear: both;
 }
 
 /*.bio-col {
