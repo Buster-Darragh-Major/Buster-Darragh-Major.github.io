@@ -29,7 +29,6 @@ $( document ).ready(function() {
 	$("#simpsons-portal").hover(
 		function() {
 			$("#portal-description").append("From cheeky Mr. Burns to awfully devilish Miss Hoover, The Simpsons truly has it all!");
-			console.log("hey");
 		},
 		function(){
 			$("#portal-description").empty();
