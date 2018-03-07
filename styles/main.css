@@ -82,7 +82,7 @@ body {
 }
 
 #music-portal:hover {
-	background-color: orange; /*Orange*/
+	background-color: #ff6e00; /*Orange*/
 }
 
 #music-portal:hover h1, #music-portal:hover p, #music-portal:hover i {
