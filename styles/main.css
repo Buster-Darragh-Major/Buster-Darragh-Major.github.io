@@ -12,11 +12,6 @@ body {
 	background: black;
 }
 
-/*---Header Start---*/
-
-/*---Header Finish*---/
-
-
 /*---Body Start---*/
 
 .content {
@@ -65,7 +60,7 @@ body {
 .portal {
 	display: inline-grid;
 	width: 21%;
-	margin: 30px 7px 10px 7px;
+	margin: 10px 7px 10px 7px;
 	padding: 5px 5px 5px 7px;
 	border-radius: 4px;
 }
