@@ -41,7 +41,14 @@
 /*---Menu Finish---*/
 
 /*---Bio Col---*/
-.bio-col {
+
+.column {
+	width: 60%;
+	margin: 0 auto;
+	padding: 10px 10px;
+}
+
+/*.bio-col {
 	float: left;
 	background: #222;
 	margin: 40px 100px 60px 40px;
@@ -139,7 +146,7 @@
 .dl-list {
 	margin: 0 0 0 50px;
 	list-style: square;
-}
+}*/
 /*---Bio Finish---*/
 
 /*---Footer Start---*/
