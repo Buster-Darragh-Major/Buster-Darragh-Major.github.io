@@ -72,7 +72,7 @@
 	float: right;
 	padding: 2%;
 	margin-right: 2%;
-	border-radius: 15px
+	border-radius: 15px;
 }
 
 .about-me-toolbox h2 {
@@ -83,7 +83,6 @@
 .about-me-toolbox table {
 	width: 80%;
 	margin: 0 10%;
-	font-family: "Arial";
 	list-style-type: square;
 }
 
@@ -91,10 +90,31 @@
 	text-align: left;
 	padding: 0 5px;
 	font-weight: normal;
+	font-family: "Courier New" !important;
 }
 
 .lang-icon {
 	font-size: 200%
+}
+
+.downloads table {
+	margin: 40px auto 20px auto;
+	width: auto;
+}
+
+.downloads table tr th {
+	width: 200px;
+	border-radius: 20px;
+}
+
+.downloads table tr th a {
+	text-decoration: none;
+	color: black;
+}
+
+.downloads table tr th:hover {
+	background-color: #999999;
+	cursor: pointer;
 }
 
 .work-history {
