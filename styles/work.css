@@ -45,7 +45,7 @@
 
 .column {
 	width: 65%;
-	margin: 0 auto;
+	margin: 0 auto 200px auto;
 	padding: 60px 0;
 }
 
@@ -126,6 +126,88 @@
 .work-history {
 	clear: both;
 	margin: 80px auto;
+}
+
+
+
+
+
+
+.work-company-name {
+   	text-align: center; 
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.work-company-name:before,
+.work-company-name:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.work-company-name:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.work-company-name:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.work-company-name span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+
+.serko {
+	margin-top: 60px;
+}
+
+.serko-image {
+	float:left;
+	width: 60%;
+	margin-bottom: 50px;
+}
+
+.serko-text {
+	text-indent: 50px;
+	line-height: 1.5;
+}
+
+.china-hawkins {
+	clear: both;
+}
+
+.china-hawkins-image {
+	float: right;
+	width: 60%;
+	margin-bottom: 50px;
+	margin-left: 10px;
+}
+
+.china-hawkins-text {
+	text-indent: 50px;
+	line-height: 1.5;
+	margin-left: 10px;
+}
+
+.meg {
+	clear: both;
+}
+
+.meg-image {
+	float: left;
+	width: 60%;
+	margin-right: 10px;
+}
+
+.meg-text {
+	text-indent: 50px;
+	line-height: 1.5;
 }
 
 /*.bio-col {
