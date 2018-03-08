@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
+	font-family: "Arial";
 }
 
 .banner {
@@ -41,7 +42,175 @@
 /*---Menu Finish---*/
 
 /*---Bio Col---*/
-.bio-col {
+
+.column {
+	width: 65%;
+	margin: 0 auto 200px auto;
+	padding: 60px 0;
+}
+
+.header {
+	font-family: "Arial";
+	font-size: 60px;
+	text-align: center;
+}
+
+.about-me-content {
+	margin: 30px 0;
+}
+
+.about-me-text {
+	width: 60%;
+	float: left;
+	margin: 70px 2% 0 2%;
+	text-indent: 50px;
+	line-height: 1.5;
+}
+
+.about-me-toolbox {
+	width: 30%;
+	float: right;
+	padding: 2%;
+	margin-right: 2%;
+	border-radius: 15px;
+}
+
+.about-me-toolbox h2 {
+	font-family: "Arial";
+	text-align: center;
+}
+
+.about-me-toolbox table {
+	width: 80%;
+	margin: 0 10%;
+	list-style-type: square;
+	margin-bottom: 100px;
+}
+
+.about-me-toolbox table tr th {
+	text-align: left;
+	padding: 0 5px;
+	font-weight: normal;
+	font-family: "Courier New" !important;
+}
+
+.lang-icon {
+	font-size: 200%
+}
+
+.downloads table {
+	margin: 40px auto 20px auto;
+	width: auto;
+}
+
+.downloads table tr th {
+	width: 200px;
+	border-radius: 10px;
+}
+
+.downloads table tr th a {
+	text-decoration: none;
+	color: black;
+}
+
+.downloads table tr th:hover {
+	background-color: black;
+	cursor: pointer;
+	color: white;
+}
+
+.downloads table tr th:hover a {
+	color: white;
+}
+
+.work-history {
+	clear: both;
+	margin: 80px auto;
+}
+
+
+
+
+
+
+.work-company-name {
+   	text-align: center; 
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.work-company-name:before,
+.work-company-name:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.work-company-name:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.work-company-name:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.work-company-name span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+
+.serko {
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+
+.serko-image {
+	float:left;
+	width: 60%;
+}
+
+.serko-text {
+	text-indent: 50px;
+	line-height: 1.5;
+}
+
+.china-hawkins {
+	clear: both;
+	margin-bottom: 50px;
+}
+
+.china-hawkins-image {
+	float: right;
+	width: 60%;
+	margin-left: 10px;
+}
+
+.china-hawkins-text {
+	text-indent: 50px;
+	line-height: 1.5;
+	margin-left: 10px;
+}
+
+.meg {
+	clear: both;
+}
+
+.meg-image {
+	float: left;
+	width: 60%;
+	margin-right: 10px;
+}
+
+.meg-text {
+	text-indent: 50px;
+	line-height: 1.5;
+}
+
+/*.bio-col {
 	float: left;
 	background: #222;
 	margin: 40px 100px 60px 40px;
@@ -139,7 +308,7 @@
 .dl-list {
 	margin: 0 0 0 50px;
 	list-style: square;
-}
+}*/
 /*---Bio Finish---*/
 
 /*---Footer Start---*/
