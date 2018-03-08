@@ -6,12 +6,12 @@
 }
 
 .banner {
-	background: grey;
+	background: #405e8e;
 }
 
 /*---Menu Start---*/
 .menu {
-	background: grey;
+	background: #405e8e;
 }
 
 .menu-list {
@@ -36,7 +36,7 @@
 }
 
 .menu-list a li:hover {
-	background: #555;
+	background: #314360;
 	color: orange;
 }
 /*---Menu Finish---*/
@@ -209,107 +209,6 @@
 	text-indent: 50px;
 	line-height: 1.5;
 }
-
-/*.bio-col {
-	float: left;
-	background: #222;
-	margin: 40px 100px 60px 40px;
-	border-radius: 15px;
-	width: 30vw;
-	padding: 70px;
-	text-align: center;
-}
-
-.bio-col-pic {
-	height: auto;
-	width: 250px;
-	margin: 30px 0 20px 0;
-	border-radius: 50%;
-	border: 1px solid orange;
-}
-
-.bio-col-para {
-	font-family: "Arial";
-	color: white;
-	text-align: left;
-}
-
-.body-header {
-	margin: 50px;
-	margin-right: 30px;
-	font-size: 75px;
-	font-weight: normal;
-	font-family: "Arial";
-}
-
-.body-sub-header {
-	margin: 50px;
-	margin-right: 30px;
-	font-size: 35px;
-	font-weight: normal;
-	font-family: "Arial";
-	text-align: center;
-}
-
-.body-para, li {
-	margin: 0 100px 0 70px;
-	text-align: left;
-	font-size: 20px;
-	font-family: "Arial";
-}
-
-.contact-table {
-	width: 40vw;
-	table-layout: fixed;
-}
-
-.contact-table .ct-1 {
-	width: 150px;
-}
-
-.contact-table tr th{
-	font-weight: normal;
-}
-
-.work-history-img {
-	float: right;
-	margin: 20px;
-}
-
-#park-hyatt {
-	width: 500px;
-}
-
-#meg {
-	height: 400px;
-}
-
-.project-box {
-	margin: 0 10%;
-	border: 1px solid orange;
-}
-
-.project-table {
-	margin: auto;
-}
-
-.project-table tr {
-	margin: 20px 50px;
-	width: 45vw;
-}
-
-.project-table tr th img {
-	width: 80%;
-	margin: 20px 0;
-	height: auto;
-	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.dl-list {
-	margin: 0 0 0 50px;
-	list-style: square;
-}*/
-/*---Bio Finish---*/
 
 /*---Footer Start---*/
 #footer {
