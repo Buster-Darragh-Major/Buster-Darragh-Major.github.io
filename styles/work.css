@@ -104,7 +104,7 @@
 
 .downloads table tr th {
 	width: 200px;
-	border-radius: 20px;
+	border-radius: 10px;
 }
 
 .downloads table tr th a {
@@ -113,8 +113,13 @@
 }
 
 .downloads table tr th:hover {
-	background-color: #999999;
+	background-color: black;
 	cursor: pointer;
+	color: white;
+}
+
+.downloads table tr th:hover a {
+	color: white;
 }
 
 .work-history {
