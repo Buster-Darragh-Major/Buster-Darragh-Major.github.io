@@ -45,7 +45,7 @@
 
 .column {
 	width: 65%;
-	margin: 0 auto 200px auto;
+	margin: 0 auto 0px auto;
 	padding: 60px 0;
 }
 
@@ -53,6 +53,7 @@
 	font-family: "Arial";
 	font-size: 60px;
 	text-align: center;
+	color: #263d60;
 }
 
 .about-me-content {
@@ -78,6 +79,7 @@
 .about-me-toolbox h2 {
 	font-family: "Arial";
 	text-align: center;
+	color: #263d60;
 }
 
 .about-me-toolbox table {
@@ -137,11 +139,12 @@
    	text-align: center; 
     overflow: hidden;
     margin-bottom: 30px;
+    color: #263d60;
 }
 
 .work-company-name:before,
 .work-company-name:after {
-    background-color: #000;
+    background-color: #263d60;
     content: "";
     display: inline-block;
     height: 1px;
@@ -159,7 +162,7 @@
 }
 
 .work-company-name span { 
-    background:#fff; 
+    background:#263d60; 
     padding:0 10px; 
 }
 
@@ -208,6 +211,23 @@
 .meg-text {
 	text-indent: 50px;
 	line-height: 1.5;
+}
+
+.thanks {
+	margin: 0 auto 100px auto;
+}
+
+.thanks h3 {
+	text-align: center;
+}
+
+.thanks-images {
+	margin: 0 auto;
+}
+
+.thanks-images tr th img {
+	height: 100px;
+	margin: 20px;
 }
 
 /*---Footer Start---*/
