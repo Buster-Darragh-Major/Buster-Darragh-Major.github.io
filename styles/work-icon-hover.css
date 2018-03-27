@@ -22,12 +22,16 @@
 	color: #03599C;
 }
 
-.hoverable-bash:hover {
-	color: #111111;
+.hoverable-python:hover {
+	color: #FFD845;
 }
 
 .hoverable-slack:hover {
 	color: #111111;
+}
+
+.hoverable-git:hover {
+	color: #F34F29;
 }
 
 .hoverable-sql:hover {
