@@ -61,6 +61,7 @@
 .book-cell {
 	padding: 10px 75px;
 	border-radius: 15px;
+	vertical-align: middle;
 }
 
 .book-cell:hover {
@@ -69,6 +70,10 @@
 
 .cover {
 	height: 200px;
+}
+
+.book-desc {
+	
 }
 
 /*---Col Finish---*/
