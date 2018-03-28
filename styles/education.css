@@ -50,6 +50,8 @@
 
 .ball-pic {
 	width: 60%;
+	float: left;
+	margin-right: 15px;
 }
 
 /*---Col Finish---*/
