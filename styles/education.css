@@ -54,6 +54,23 @@
 	margin-right: 15px;
 }
 
+.book-list {
+	list-style-type: none;
+}
+
+.book-cell {
+	padding: 10px 75px;
+	border-radius: 15px;
+}
+
+.book-cell:hover {
+	background: #cac0d8;
+}
+
+.cover {
+	height: 200px;
+}
+
 /*---Col Finish---*/
 
 /*---Footer Start---*/
