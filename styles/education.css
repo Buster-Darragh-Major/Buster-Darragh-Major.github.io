@@ -48,6 +48,10 @@
 	margin-bottom: 50px;
 }
 
+a {
+	text-decoration: none;
+}
+
 .ball-pic {
 	width: 60%;
 	float: left;
@@ -70,10 +74,13 @@
 
 .cover {
 	height: 200px;
+	margin-right: 20px;
 }
 
-.book-desc {
-	
+.book-text {
+	font-weight: normal !important;
+	style: none;
+	color: black;
 }
 
 /*---Col Finish---*/
