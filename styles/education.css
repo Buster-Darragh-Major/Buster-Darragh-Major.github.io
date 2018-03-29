@@ -63,6 +63,7 @@ a {
 }
 
 .book-cell {
+	margin: 5px 15px;
 	padding: 10px 75px;
 	border-radius: 15px;
 	vertical-align: middle;
