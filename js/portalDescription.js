@@ -7,10 +7,10 @@ $( document ).ready(function() {
 			$("#portal-description").empty();
 		}
 	);
-	
+
 	$("#education-portal").hover(
 		function() {
-			$("#portal-description").append("This area is coming soon, stay tuned!");
+			$("#portal-description").append("I've studied up on a lot of different subjects relating to software engineering over the past few years. Whether it be at university, at home or at work I'm always learning, and I’m excited at the prospect of becoming a fully qualified software engineer!");
 		},
 		function(){
 			$("#portal-description").empty();
