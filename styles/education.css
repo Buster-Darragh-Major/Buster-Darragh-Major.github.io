@@ -42,6 +42,88 @@
 
 /*---Menu Finish---*/
 
+/*---Col Start---*/
+
+.auckland-uni {
+	margin-bottom: 50px;
+}
+
+.auckland-uni p {
+	text-indent: 50px;
+	line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+}
+
+.ball-pic {
+	width: 60%;
+	float: left;
+	margin-right: 15px;
+}
+
+.courses {
+	margin: 30px 0 100px 0;
+	padding: 15px;
+	width: 100%;
+	border-radius: 15px;
+}
+
+.courses:hover {
+	background: #dbd5e5;
+}
+
+.courses table {
+	margin-top: 30px;
+	width: 100%;
+	text-align: left;
+}
+
+.courses table tr th {
+	padding: 0 15px;
+}
+
+.courses table tr th ul li {
+	font-weight: normal;
+	margin-bottom: 5px;
+	color: black;
+}
+
+.courses-header {
+	text-align: center;
+	font-weight: bold;
+	color: black;
+}
+
+.book-list {
+	list-style-type: none;
+}
+
+.book-cell {
+	margin: 5px 15px;
+	padding: 10px 75px;
+	border-radius: 15px;
+	vertical-align: middle;
+}
+
+.book-cell:hover {
+	background: #dbd5e5;
+}
+
+.cover {
+	height: 200px;
+	margin-right: 20px;
+}
+
+.book-text {
+	font-weight: normal !important;
+	style: none;
+	color: black;
+}
+
+/*---Col Finish---*/
+
 /*---Footer Start---*/
 #footer {
 	margin: 0;

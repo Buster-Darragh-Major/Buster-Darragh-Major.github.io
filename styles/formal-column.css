@@ -1,0 +1,43 @@
+.column {
+	width: 65%;
+	margin: 0 auto 0px auto;
+	padding: 60px 0;
+}
+
+.header {
+	font-family: "Arial";
+	font-size: 60px;
+	text-align: center;
+	color: #263d60;
+}
+
+.strikethrough {
+   	text-align: center;
+    overflow: hidden;
+    margin-bottom: 30px;
+    color: #263d60;
+}
+
+.strikethrough:before,
+.strikethrough:after {
+    background-color: #263d60;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.strikethrough:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.strikethrough:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.strikethrough span {
+    background:#263d60;
+    padding:0 10px;
+}
